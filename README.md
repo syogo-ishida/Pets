@@ -30,14 +30,14 @@ ER図
 https://drive.google.com/file/d/14jDFBlK39k7biT0e9YhOIzs_s7wGCsL_/view?usp=sharing
 
 テーブル定義書
-https://docs.google.com/spreadsheets/d/1hcl5EPMM1dC04ZbQvXfQLECSKE9pSgCkQV17IPgDrUI/edit#gid=4757890
+https://docs.google.com/spreadsheets/d/1hcl5EPMM1dC04ZbQvXfQLECSKE9pSgCkQV17IPgDrUI/edit?usp=sharing
 
 アプリケーション詳細設計
-https://docs.google.com/spreadsheets/d/1ENa9N-tKIDfA7W2I0LtKQDD8NRm60WPa/edit#gid=549108681
+https://drive.google.com/file/d/1ENa9N-tKIDfA7W2I0LtKQDD8NRm60WPa/view?usp=sharing
 
 
 ## チャレンジ要素一覧
-https://docs.google.com/spreadsheets/d/1lyR4mf6OGrSjKJWJysoFRtRN7bGavQHO3ayb1sA_3Sw/edit#gid=0
+https://docs.google.com/spreadsheets/d/1lyR4mf6OGrSjKJWJysoFRtRN7bGavQHO3ayb1sA_3Sw/edit?usp=sharing
 
 ## 開発環境
 - OS：Linux(CentOS)
