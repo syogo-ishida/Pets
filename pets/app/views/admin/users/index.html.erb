@@ -1,0 +1,63 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-4">
+      <div id="title">Users</span></div>
+    </div>
+    <div class="col-lg-6"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-8">
+
+    <div class="search my-4 text-center admin-search">
+      <%= render 'admin/searches/user_search' %>
+    </div>
+
+      <table class="table users-table" >
+        <tr class="text-center">
+          <th>ID</th>
+          <th>名前</th>
+          <th>メールアドレス</th>
+          <th>会員ステータス</th>
+          <th></th>
+        </tr>
+
+        <% @users.each do |user| %>
+          <tr class="text-center">
+            <td><%= user.id %></td>
+            <td><%= user.name %></td>
+            <td><%= user.email %></td>
+            <td>
+              <% if user.is_deleted? %>
+                <p style="color: #ec6d51">退会</p>
+              <% else %>
+                <p style="color: #316745;">有効</p>
+              <% end %>
+            </td>
+            <td><%= link_to "DETAIL", admin_user_path(user.id), id: "user-detail-btn" %></td>
+          </tr>
+        <% end %>
+      </table>
+
+
+
+
+
+    </div>
+    <div class="col-lg-2"></div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+

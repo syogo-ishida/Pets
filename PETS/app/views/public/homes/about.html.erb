@@ -1,0 +1,35 @@
+<div class="container" id="about-container">
+
+  <div class="about-visual">
+    <div class="about-visual-content"></div>
+  </div>
+
+
+
+  <div class="about-text">
+    <p>みんなの投稿です<br>
+       お気に入りのわんちゃんたちを見つけてね！
+    </p>
+  </div>
+
+
+
+  <div class="row">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-4">
+      <div id="title" class="mb-2"> New Posts</div>
+    </div>
+    <div class="col-lg-6"></div>
+  </div>
+
+  <div class="mt-4 mb-4 text-center">
+    <%= render 'public/searches/search' %>
+  </div>
+
+
+
+  <%= render 'public/posts/post', posts: @posts %>
+
+
+</div>
+

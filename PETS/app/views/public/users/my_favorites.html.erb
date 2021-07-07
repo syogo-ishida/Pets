@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-4 mb-5">
+      <div id="title"><%= @user.user_name %><span>'s favorites</span></div>
+    </div>
+    <div class="col-lg-6"></div>
+  </div>
+
+  <div class="mt-3 mb-5 text-center">
+    <%= render 'public/searches/search' %>
+  </div>
+
+
+  <%= render 'public/posts/post', posts: @favorites_list %>
+
+
+</div>
+
+
